@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaFacebook, FaTwitter } from 'react-icons/fa';
 
 export default function FooterNav() {
   return (
@@ -9,6 +10,14 @@ export default function FooterNav() {
           Contact
         </a>
       </p>
+      <div>
+        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+          <FaFacebook className="text-white me-2" size={20} />
+        </a>
+        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+          <FaTwitter className="text-white" size={20} />
+        </a>
+      </div>
     </footer>
   );
 }
